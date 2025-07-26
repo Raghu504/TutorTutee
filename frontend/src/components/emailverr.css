@@ -1,0 +1,49 @@
+.fullscreen-container {
+    background-color: #000; /* Full black background */
+    color: #fff; /* White text */
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    font-family: Arial, sans-serif; /* Clean font */
+  }
+  
+  .verification-container {
+    text-align: center; /* Center text */
+    padding: 20px; /* Padding inside the container */
+    border-radius: 10px; /* Rounded corners */
+    width: 400px; /* Fixed width */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Subtle white shadow */
+  }
+  
+  .verification-container h3 {
+    font-size: 1.8rem; /* Larger heading font size */
+    margin-bottom: 10px; /* Add spacing below the heading */
+  }
+  
+  .verification-container p {
+    font-size: 1rem; /* Normal font size for paragraphs */
+    margin: 5px 0; /* Spacing between paragraphs */
+  }
+  
+  .verification-input {
+    width: 100%; /* Full width of the container */
+    padding: 10px; /* Padding inside the input */
+    margin-top: 10px; /* Spacing from the top */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Slightly rounded corners */
+    font-size: 1rem; /* Normal font size */
+  }
+  
+  .verify-button {
+    width: 100%; /* Full width of the container */
+    padding: 10px; /* Padding inside the button */
+    margin-top: 10px; /* Spacing from the top */
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Slightly rounded corners */
+    font-size: 1rem; /* Normal font size */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  

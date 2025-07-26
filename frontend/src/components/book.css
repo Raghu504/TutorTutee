@@ -1,0 +1,98 @@
+/* Page container styling */
+.page-container {
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+/* Logo styling */
+.logo-v2 {
+  margin-bottom: 20px;
+}
+
+.logo-link-v2 {
+  text-decoration: none;
+  font-size: 24px;
+  color: #3498db;
+  font-weight: bold;
+}
+
+/* Page title */
+.page-title {
+  font-size: 32px;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Bookings container */
+.bookings-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Booking card */
+.booking-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: left;
+}
+
+.booking-title {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.booking-text {
+  font-size: 16px;
+  color: #666;
+  margin: 5px 0;
+}
+
+/* Cancel button */
+.cancel-button {
+  background-color: #e74c3c;
+  color: white;
+  font-size: 16px;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cancel-button:hover {
+  background-color: #c0392b;
+}
+
+/* No bookings message */
+.no-bookings-message {
+  font-size: 18px;
+  color: #7f8c8d;
+  text-align: center;
+}
+
+/* Footer */
+/* .footer-container {
+  margin-top: 40px;
+  background-color: #ecf0f1;
+  padding: 20px;
+  text-align: center;
+  color: #2c3e50;
+  font-size: 14px;
+} */
+
+@media (max-width: 600px) {
+  .page-title {
+    font-size: 24px;
+  }
+
+  .cancel-button {
+    width: 100%;
+  }
+}

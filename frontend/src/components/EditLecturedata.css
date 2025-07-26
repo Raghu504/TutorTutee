@@ -1,0 +1,85 @@
+/* Container styling */
+.edit-lecture-form-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background: linear-gradient(to bottom right, #f5a2a2, #f0f4ff);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Header */
+  .edit-lecture-title {
+    text-align: center;
+    font-size: 30px;
+    color: #1f3b8c;
+    margin-bottom: 25px;
+  }
+  
+  /* Form */
+  .edit-lecture-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  
+  .input-field {
+    padding: 12px;
+    border: 1px solid #ccd4e3;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+    background-color: #f8faff;
+    color: #333;
+  }
+  
+  .input-label {
+    font-size: 15px;
+    color: #1a2f66;
+    margin-bottom: 6px;
+  }
+  
+  /* Submit button */
+  .submit-button {
+    background-color: #4a90e2;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #357ab7;
+  }
+  
+  .date-time-picker {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .logo-container {
+    text-align: center;
+    margin-bottom: 25px;
+    border-radius: 10px;
+  }
+  
+  .logo-image {
+    max-width: 120px;
+    cursor: pointer;
+    width: 70px;
+    height:70px;
+    border-radius: 50%;
+    transition: transform 0.2s ease;
+  }
+  
+  .logo-image:hover {
+    transform: scale(1.05);
+  }
+  
+  

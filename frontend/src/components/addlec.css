@@ -1,0 +1,72 @@
+/* Container for the form */
+.add-lecture-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color:#4169E1;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+  }
+  
+  /* Form Title */
+  .add-lecture-container h2 {
+    font-size: 24px;
+    color:#47e48b2f;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for each input field and select dropdown */
+  .add-lecture-container input,
+  .add-lecture-container select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #251010;
+    font-size: 16px;
+  }
+  
+  /* Focus effect on input fields */
+  .add-lecture-container input:focus,
+  .add-lecture-container select:focus {
+    outline: none;
+    border-color: #db3434;
+  }
+  
+  /* Label for date and time */
+  .add-lecture-container label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  /* Submit button styling */
+  .add-lecture-container input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .add-lecture-container input[type="submit"]:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Make the form more responsive */
+  @media (max-width: 600px) {
+    .add-lecture-container {
+      width: 90%;
+    }
+  }
+  
